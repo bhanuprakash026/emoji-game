@@ -1,0 +1,29 @@
+/* Write your code here. */
+.emoji-list-card {
+  list-style-type: none;
+  padding-left: 0;
+}
+.emoji {
+  height: 80px;
+  width: 80px;
+}
+
+.emoji-btn {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  border: 1px rgba(255, 255, 255, 0.8) solid;
+  outline: none;
+  margin: 8px;
+}
+@media screen and (max-width: 767px) {
+  .emoji-btn {
+    height: 80px;
+    width: 80px;
+  }
+  .emoji {
+    height: 40px;
+    width: 40px;
+  }
+}
